@@ -1,0 +1,8 @@
+The code in drgtk_forwardable.rb code is modified from https://github.com/takahashim/mruby-forwardable
+The stated license at https://github.com/takahashim/mruby-forwardable at the time of download (10:44pm Eastern March 26 2023) was "BSDL from CRuby's"
+
+Since drgtk_forwardable.rb serves a very similar purpose (porting CRuby's
+`Forwardable` module to a different Ruby implementation, [in the case of `mruby-forwardable`, that would be mruby,
+and in the present case, dragonruby-gtk]), I'm claiming the same license, the BSD License from CRuby,
+to comply with the constraints of the existing license while being as permissive with this code as is allowed by the
+licenses on `forwardable` in mruby & cruby.
